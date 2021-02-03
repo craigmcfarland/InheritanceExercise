@@ -9,7 +9,7 @@ namespace Inheritance
             IsAlive = true;
             LegCount = 4;
             LandSeaAir = "Land";
-            Age = 0;
+            Age = 2;
         }
 
         public bool IsColdBlooded { get; set; }

@@ -57,8 +57,11 @@ namespace Inheritance
             foreach (var animal in myAnimals)
             {
                 Console.WriteLine($"Alive:{animal.IsAlive}");
+                Console.WriteLine();
                 Console.WriteLine($"Age:{animal.Age} years old");
+                Console.WriteLine();
                 Console.WriteLine($"It has:{animal.LegCount} legs");
+                Console.WriteLine();
                 Console.WriteLine($"It lives by: {animal.LandSeaAir}");
 
 
